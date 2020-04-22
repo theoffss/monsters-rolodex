@@ -31,7 +31,7 @@ constructor(){
       return (
       <div className="App">
         <h1>Monsters Rolodex</h1>
-        <SearchBox 
+        <SearchBox className = 'searchbox'
         placeholder = 'search monsters'
         handleChange = {this.handleChange } 
         />
